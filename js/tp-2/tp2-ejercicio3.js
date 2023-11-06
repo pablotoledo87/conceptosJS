@@ -1,6 +1,6 @@
 
 do{
-    let cadenaTexto = prompt("ingrese su cadena de texto")
+    let cadenaTexto = prompt("ingrese su cadena de texto: ")
 
     
     document.write(cadenaTexto + " - ") ;
