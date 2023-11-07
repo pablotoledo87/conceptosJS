@@ -1,6 +1,6 @@
 
-const calificacion = (prompt("Ìngrese su calificacion"))
-
+const calificacion = (prompt("Ìngrese su calificacion: Del 0 a 10"))
+if(!isNaN(calificacion)){
 switch(calificacion){
     case '0':
     case '1':
@@ -35,5 +35,8 @@ switch(calificacion){
     document.write(`Su calificacion es de ${calificacion}, es notable`)
     break;
     default:
-        document.write("numero erroneo");
+        alert("número erroneo");
+}
+}else{
+    alert("Introduce un número valido")
 }
